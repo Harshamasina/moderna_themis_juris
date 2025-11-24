@@ -40,7 +40,6 @@ const Footer = () => {
             <a href="mailto:info@modernathemisjurisopc.com" className="footer-contact-link">
               info@modernathemisjurisopc.com
             </a>
-            <p>Availability</p>
             <span className="footer-pill">Strategic advisory • Compliance programs • Litigation</span>
           </div>
         </div>
