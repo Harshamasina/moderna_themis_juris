@@ -36,7 +36,6 @@ const Footer = () => {
           </div>
           <div className="footer-contact">
             <h5>Connect</h5>
-            <p>Email</p>
             <a href="mailto:info@modernathemisjurisopc.com" className="footer-contact-link">
               info@modernathemisjurisopc.com
             </a>

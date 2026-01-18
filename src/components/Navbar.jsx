@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
 import logo from '../assets/logo_fav.png';
+import { Link } from 'react-router-dom';
 
 const navLinks = [
   { id: 'about', label: 'About' },
+  {id: 'founder', label: 'Founder'},
   { id: 'compliance', label: 'Compliance' },
   { id: 'contact', label: 'Contact' },
 ];
@@ -37,13 +39,15 @@ const Navbar = () => {
 
   return (
     <header className="nav-bar glass-panel">
-      <div className="nav-brand">
-        <img src={logo} alt="Moderna Themis Juris logo" className="nav-logo" />
-        <div className="brand-text">
-          <span className="brand-name">Moderna Themis Juris</span>
-          {/* <span className="brand-tagline">Jus Lex Quaestio</span> */}
+      <Link>
+        <div className="nav-brand">
+          <img src={logo} alt="Moderna Themis Juris logo" className="nav-logo" />
+          <div className="brand-text">
+            <span className="brand-name">Moderna Themis Juris</span>
+            {/* <span className="brand-tagline">Jus Lex Quaestio</span> */}
+          </div>
         </div>
-      </div>
+      </Link>
       <nav className={`nav-links ${menuOpen ? 'open' : ''}`} id="site-navigation">
         {navLinks.map((link) => (
           <button
