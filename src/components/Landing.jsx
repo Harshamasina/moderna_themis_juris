@@ -118,7 +118,12 @@ const Landing = () => {
             Translating deep research pedigree into decisive corporate execution for regulated industries.
           </p>
         </div>
-        <div className="glass-panel founder-shell">
+        <a
+          className="glass-panel founder-shell founder-link"
+          href="https://maheshkandula.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <div className="founder-grid">
             <div className="founder-portrait">
               <div className="portrait-frame">
@@ -149,7 +154,7 @@ const Landing = () => {
               </p>
             </div>
           </div>
-        </div>
+        </a>
       </section>
 
       <section id="research" className="section">
