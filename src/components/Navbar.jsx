@@ -7,6 +7,7 @@ const navLinks = [
   { id: 'about', label: 'About' },
   {id: 'founder', label: 'Founder'},
   { id: 'compliance', label: 'Compliance' },
+  { id: 'careers', label: 'Careers' },
   { id: 'contact', label: 'Contact' },
 ];
 

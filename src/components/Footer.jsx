@@ -1,12 +1,13 @@
 import logo from '../assets/logo.png';
 
 const quickLinks = [
-  { label: 'About', href: '/' },
+  { label: 'About', href: '#about' },
+  { label: 'Founder', href: '#founder' },
   { label: 'Research Areas', href: '#research' },
-  { label: 'Compliance', href: '#research' },
-  // { label: 'Training', href: '#training' },
-  // { label: 'Legal Epidemiology', href: '#epidemiology' },
-  { label: 'Contact', href: '#research' },
+  { label: 'Compliance', href: '#compliance' },
+  { label: 'Training', href: '#training' },
+  { label: 'Careers', href: '#careers' },
+  { label: 'Contact', href: '#contact' },
 ];
 
 const Footer = () => {
